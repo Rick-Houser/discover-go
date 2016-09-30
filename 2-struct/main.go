@@ -20,5 +20,5 @@ func main() {
 		fmt.Printf("error %v", err)
 		return
 	}
-	fmt.Printf("%s was born in %s would be %d years old today.\n", u.Name, u.City, int(result))
+	fmt.Printf("%s was born in %s and would be %d years old today.\n", u.Name, u.City, int(result))
 }
